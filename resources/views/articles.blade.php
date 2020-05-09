@@ -19,13 +19,13 @@
       
       
       
-        <nav class="navbar-expand-sm navbar-dark bg-info mb-2">
-            <div class="container">
-            <a href="{{ route('arts') }}" class="navbar-brand">Artilces</a>
-            <a href="{{ route('live_search') }}" class="navbar-brand">Live Search</a>
-     {{-- <!-- <a v-bind:href="{{route('/')}}"> --> --}}
-             </div>
-        </nav>
+            <div id="app">
+                <navbar></navbar>
+                <div class="container">
+                    <articles></articles>
+                    {{-- <example-component></example-component> --}}
+                </div>
+            </div>
 
             <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
             <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

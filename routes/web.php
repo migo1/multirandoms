@@ -20,3 +20,8 @@ Route::get('/', function () {
 Route::get('/vf', function () {
     return view('form');
 });
+
+Route::get('/live_search', 'LiveSearch@index')->name('live_search');
+Route::get('/live_search/action', 'LiveSearch@action')->name('live_search.action');
+
+Route::get('arts', 'ArtController@index')->name('arts');
